@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 535.0, 100.0, 1872.0, 1208.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 708.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -102,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1741.0, 462.0, 58.0, 48.0 ],
+					"patching_rect" : [ 1741.0, 462.0, 58.0, 47.0 ],
 					"text" : "needs to be on at start"
 				}
 
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1200.0, 813.495734870433807, 67.0, 48.0 ],
+					"patching_rect" : [ 1200.0, 813.495734870433807, 67.0, 47.0 ],
 					"text" : "needs to be off at start"
 				}
 
@@ -126,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1600.0, 651.0, 79.0, 48.0 ],
+					"patching_rect" : [ 1600.0, 651.0, 79.0, 47.0 ],
 					"text" : "needs to be set to 2 at start"
 				}
 
@@ -849,7 +849,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1151.0, 452.0, 62.0, 34.0 ],
+					"patching_rect" : [ 1151.0, 452.0, 62.0, 33.0 ],
 					"text" : "midi keyboard"
 				}
 
@@ -1776,7 +1776,7 @@
 
 							}
  ],
-						"originid" : "pat-594"
+						"originid" : "pat-8"
 					}
 ,
 					"patching_rect" : [ 86.5, 522.471951842308044, 69.0, 22.0 ],
@@ -3005,7 +3005,7 @@
 
 							}
  ],
-						"originid" : "pat-596"
+						"originid" : "pat-10"
 					}
 ,
 					"patching_rect" : [ 641.463429927825928, 181.0, 52.0, 22.0 ],
@@ -3198,7 +3198,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 173.5, 384.0, 50.0, 22.0 ],
-					"text" : "15"
+					"text" : "4"
 				}
 
 			}
@@ -3409,7 +3409,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 530.0, 51.0, 34.0 ],
+					"patching_rect" : [ 1377.0, 530.0, 51.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 658.064520835876465, 547.000003755092621, 80.645161867141724, 20.0 ],
 					"text" : "filter lfo rate"
@@ -3492,7 +3492,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 566.935487926006317, 523.387100517749786, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 2,
+					"value" : 1,
 					"varname" : "oscType1"
 				}
 
@@ -3955,16 +3955,16 @@
 						"distGain" : [ 89 ],
 						"drumBussGain" : [ 115 ],
 						"drumSequencer" : [ 0, 0, 1.0, 4, 0, 1.0, 4, 1, 1.0, 8, 0, 1.0, 12, 0, 1.0, 12, 1, 1.0 ],
-						"filterCenterFreq" : [ 7251.748251748251278 ],
+						"filterCenterFreq" : [ 4933.566433566433261 ],
 						"filterLfoDepth1" : [ 1.0 ],
 						"filterLfoRate1" : [ 4.2 ],
 						"filterResonance1" : [ 0.81 ],
 						"kickGain" : [ 127 ],
 						"masterOutputSelector" : [ 2 ],
-						"mcSynthGain" : [ 119 ],
+						"mcSynthGain" : [ 100 ],
 						"noteLength" : [ 949 ],
 						"notesTable" : [ 4, 3, 0, 0, 0, 0, 0, 5, 0, 0, 0, 3, 3, 0, 0, 0 ],
-						"oscType1" : [ 2 ],
+						"oscType1" : [ 1 ],
 						"polySynthAttack1" : [ 15.0 ],
 						"polySynthDecay1" : [ 632.0 ],
 						"polySynthRelease1" : [ 264.0 ],
@@ -4011,7 +4011,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, -244.0, 872.000012993812561, 20.0 ],
+					"patching_rect" : [ 17.0, -244.0, 872.000012993812561, 18.0 ],
 					"text" : "should be elements that you can \"play\" as well as automate and there should be aspects where the two voices are \"communicating\" with each other",
 					"textcolor" : [ 0.292172193527222, 0.0, 0.998296856880188, 1.0 ]
 				}
@@ -4037,7 +4037,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, -270.0, 562.400008380413055, 20.0 ],
+					"patching_rect" : [ 17.0, -270.0, 562.400008380413055, 18.0 ],
 					"text" : "the synthesizer must have some adjustable parameters and not just simply be a sine wave etc",
 					"textcolor" : [ 0.292172193527222, 0.0, 0.998296856880188, 1.0 ]
 				}
@@ -4064,7 +4064,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, -302.0, 647.0, 34.0 ],
+					"patching_rect" : [ 17.0, -302.0, 647.0, 30.0 ],
 					"text" : "a second voice can be sample playback, midi, or another synthesizer.  Effect/signal processing (filters, eq, reverb, etc) must be employed and controllable somewhere in the patch",
 					"textcolor" : [ 0.292172193527222, 0.0, 0.998296856880188, 1.0 ]
 				}
@@ -4100,7 +4100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -12.0, -396.0, 914.813477000000034, 34.0 ],
+					"patching_rect" : [ -12.0, -396.0, 914.813477000000034, 33.0 ],
 					"text" : "                              this isn't going to be a masterpiece.  You are starting to apply skills towards a musical goal, but you might not end up with what you set out to make.  Again, embrace happy accidents, or perhaps even sad accidents."
 				}
 
@@ -4112,7 +4112,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -12.0, -426.0, 756.0, 34.0 ],
+					"patching_rect" : [ -12.0, -426.0, 756.0, 33.0 ],
 					"text" : "This assignment is open ended, but has some requirements below. You are going to create a synthesizer that is playable, programammable, and parametrizable, and it will be one of two voices in a duet."
 				}
 
@@ -4126,7 +4126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, -324.0, 488.800007283687592, 20.0 ],
+					"patching_rect" : [ 17.0, -324.0, 488.800007283687592, 18.0 ],
 					"text" : "Create a polyphonic synthesizer that is controllable, programmable, parametrizable",
 					"textcolor" : [ 0.292172193527222, 0.0, 0.998296856880188, 1.0 ]
 				}
@@ -4140,7 +4140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -12.0, -357.0, 292.0, 23.0 ],
+					"patching_rect" : [ -12.0, -357.0, 292.0, 22.0 ],
 					"text" : "Requirements:"
 				}
 
@@ -4164,7 +4164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -12.0, -450.0, 40.0, 23.0 ],
+					"patching_rect" : [ -12.0, -450.0, 40.0, 22.0 ],
 					"text" : "Intro"
 				}
 
@@ -5496,7 +5496,7 @@
 
 			}
  ],
-		"originid" : "pat-592",
+		"originid" : "pat-6",
 		"parameters" : 		{
 			"obj-173::obj-60" : [ "flonum", "flonum", 0 ],
 			"obj-173::obj-62" : [ "number[4]", "number[2]", 0 ],
@@ -5640,7 +5640,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "project3PolyADSR.maxpat",
-				"bootpath" : "C:/max-patches/MaxProjects/poly-synth",
+				"bootpath" : "~/code/max-projects/MaxProjects/poly-synth",
 				"patcherrelativepath" : "../poly-synth",
 				"type" : "JSON",
 				"implicit" : 1

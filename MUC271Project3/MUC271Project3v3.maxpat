@@ -10,9 +10,33 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 3122.0, 117.0, 1321.0, 1145.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 695.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 1141.0, 181.0, 107.0, 22.0 ],
+					"text" : "abl.device.reverb~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1377.5, 165.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-187",
 					"maxclass" : "newobj",
@@ -45,7 +69,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2254.0, 772.495734870433807, 130.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1058.0, 414.0, 130.0, 130.0 ]
+					"presentation_rect" : [ 1181.0, 399.0, 130.0, 130.0 ]
 				}
 
 			}
@@ -284,7 +308,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1438.0, 131.258065462112427, 110.0, 22.0 ],
-					"text" : "scale 350 670 0. 1."
+					"text" : "scale 500 800 0. 1."
 				}
 
 			}
@@ -306,7 +330,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1321.0, 393.0, 1000.0, 780.0 ],
+						"rect" : [ 406.0, 87.0, 698.0, 709.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -544,7 +568,7 @@
 
 							}
  ],
-						"originid" : "pat-1788"
+						"originid" : "pat-3522"
 					}
 ,
 					"patching_rect" : [ 1438.0, 97.0, 74.0, 22.0 ],
@@ -767,7 +791,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1741.0, 462.0, 58.0, 48.0 ],
+					"patching_rect" : [ 1741.0, 462.0, 58.0, 47.0 ],
 					"text" : "needs to be on at start"
 				}
 
@@ -779,7 +803,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1200.0, 813.495734870433807, 67.0, 48.0 ],
+					"patching_rect" : [ 1200.0, 813.495734870433807, 67.0, 47.0 ],
 					"text" : "needs to be off at start"
 				}
 
@@ -791,7 +815,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1582.0, 652.57265716791153, 79.0, 48.0 ],
+					"patching_rect" : [ 1582.0, 652.57265716791153, 79.0, 47.0 ],
 					"text" : "needs to be set to 2 at start"
 				}
 
@@ -1086,7 +1110,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1004.0, 327.0, 18.0, 50.0 ],
 					"size" : 3,
-					"value" : 2,
+					"value" : 1,
 					"varname" : "masterOutputSelector"
 				}
 
@@ -1522,7 +1546,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1151.0, 452.0, 62.0, 34.0 ],
+					"patching_rect" : [ 1151.0, 452.0, 62.0, 33.0 ],
 					"text" : "midi keyboard"
 				}
 
@@ -2625,7 +2649,7 @@
 
 							}
  ],
-						"originid" : "pat-1790"
+						"originid" : "pat-3524"
 					}
 ,
 					"patching_rect" : [ 86.5, 522.471951842308044, 69.0, 22.0 ],
@@ -3297,10 +3321,36 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 729.0, 259.0, 1377.0, 868.0 ],
+						"rect" : [ 34.0, 89.0, 1070.0, 709.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "slider",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 495.0, 266.0, 34.0, 116.0 ],
+									"varname" : "noiseDecay"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "slider",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 454.0, 266.0, 31.0, 116.0 ],
+									"varname" : "hatNoiseRatio"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "newobj",
@@ -3309,7 +3359,9 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 731.0, 129.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"hatFMSlider" : [ 0.725757575757576 ]
+										"hatFMSlider" : [ 0.695454545454545 ],
+										"hatNoiseRatio" : [ 88 ],
+										"noiseDecay" : [ 84 ]
 									}
 ,
 									"text" : "autopattr",
@@ -4197,6 +4249,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-22", 0 ]
 								}
@@ -4400,7 +4466,7 @@
 
 							}
  ],
-						"originid" : "pat-1792"
+						"originid" : "pat-3526"
 					}
 ,
 					"patching_rect" : [ 641.463429927825928, 181.0, 52.0, 22.0 ],
@@ -4596,7 +4662,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 173.5, 384.0, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -4807,7 +4873,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1377.0, 530.0, 51.0, 34.0 ],
+					"patching_rect" : [ 1377.0, 530.0, 51.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 751.5, 509.0, 80.645161867141724, 20.0 ],
 					"text" : "filter lfo rate"
@@ -4872,7 +4938,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 658.5, 519.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 1,
+					"value" : 2,
 					"varname" : "oscType1"
 				}
 
@@ -5346,27 +5412,27 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1277.0, 212.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"baseNoteVolume" : [ 99 ],
+						"baseNoteVolume" : [ 101 ],
 						"bpm" : [ 78.0 ],
 						"distSynthGain" : [ 104 ],
 						"drumBussGain" : [ 115 ],
 						"drumSequencer" : [ 0, 0, 1.0, 2, 2, 1.0, 3, 2, 1.0, 4, 0, 1.0, 4, 1, 1.0, 6, 2, 1.0, 7, 2, 1.0, 8, 0, 1.0, 10, 2, 1.0, 11, 2, 1.0, 12, 0, 1.0, 12, 1, 1.0, 14, 2, 1.0, 15, 2, 1.0 ],
-						"filterCenterFreq" : [ 17270.979020979018969 ],
+						"filterCenterFreq" : [ 16263.986013986013859 ],
 						"filterLfoDepth1" : [ 1.0 ],
-						"filterResonance1" : [ 0.05625 ],
+						"filterResonance1" : [ 0.0 ],
 						"hatGain" : [ 126 ],
 						"kickGain" : [ 123 ],
-						"masterOutputSelector" : [ 2 ],
+						"masterOutputSelector" : [ 1 ],
 						"nonDistSynthGain" : [ 113 ],
 						"noteLength" : [ 807 ],
 						"notesTable" : [ 4, 3, 0, 0, 0, 0, 0, 5, 0, 0, 0, 3, 3, 0, 0, 0 ],
-						"number[1]" : [ 0.90625 ],
-						"oscType1" : [ 1 ],
+						"number[1]" : [ 1.166666666666667 ],
+						"oscType1" : [ 2 ],
 						"polySynthAttack1" : [ 15.0 ],
 						"polySynthDecay1" : [ 576.0 ],
 						"polySynthRelease1" : [ 828.0 ],
 						"polySynthSustain1" : [ 1.0 ],
-						"recStartStop" : [ 0 ],
+						"recStartStop" : [ 1 ],
 						"recordAttrUI" : [ "loop", 1 ],
 						"serialInputToggle" : [ 1 ],
 						"snareGain" : [ 114 ],
@@ -6372,6 +6438,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
+					"order" : 0,
+					"source" : [ "obj-235", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
 					"source" : [ "obj-235", 0 ]
 				}
 
@@ -6966,7 +7041,7 @@
 
 			}
  ],
-		"originid" : "pat-1786",
+		"originid" : "pat-3520",
 		"parameters" : 		{
 			"obj-173::obj-60" : [ "flonum", "flonum", 0 ],
 			"obj-173::obj-62" : [ "number[4]", "number[2]", 0 ],
@@ -7091,7 +7166,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "project3PolyADSR.maxpat",
-				"bootpath" : "C:/max-patches/MaxProjects/poly-synth",
+				"bootpath" : "~/code/max-projects/MaxProjects/poly-synth",
 				"patcherrelativepath" : "../poly-synth",
 				"type" : "JSON",
 				"implicit" : 1
